@@ -4,7 +4,7 @@ init:
 	@npm install
 	@echo "Install the dependencies done"
 	@echo "Up the containers"
-	@docker-compose up -d
+	@docker compose up -d
 	@echo "Create the database"
 	@npm run migrate
 	@echo "Database created"
