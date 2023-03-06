@@ -1,0 +1,29 @@
+{
+
+  "env": {
+    "es6": true,
+    "node": true
+  },
+  "extends": ["eslint:recommended", "airbnb-base", "plugin:prettier/recommended"],
+  "globals": {
+    "Atomics": "readonly",
+    "SharedArrayBuffer": "readonly"
+  },
+  "parserOptions": {
+    "ecmaVersion": 2020,
+    "sourceType": "module"
+  },
+  "plugins": ["sort-destructure-keys", "sort-keys-fix"],
+  "rules": {
+    "prettier/prettier": "warn",
+    "func-names": 0,
+    "import/extensions": 0,
+    "lines-between-class-members": 0,
+    "no-restricted-syntax": 0,
+    "arrow-body-style": ["error", "as-needed"],
+    "no-await-in-loop": 0,
+    "sort-keys-fix/sort-keys-fix": "warn",
+    "sort-destructure-keys/sort-destructure-keys": "warn",
+    "class-methods-use-this": 0
+  }
+}

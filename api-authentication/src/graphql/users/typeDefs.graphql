@@ -1,0 +1,26 @@
+type Query {
+  me: User!
+}
+
+type Mutation {
+  login(email: String!, password: String!): Token!
+}
+
+type User {
+  id: ID!
+  firstname: String!
+  lastname: String!
+  email: String!
+  role: Role!
+  createdAt: DateTime!
+  updatedAt: DateTime!
+}
+
+type Token {
+  token: String!
+}
+
+enum Role {
+  ADMIN
+  USER
+}

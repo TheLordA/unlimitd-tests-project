@@ -1,0 +1,31 @@
+{
+  "version": "0.2",
+  "language": "en,fr",
+  "import": [
+    "./node_modules/cspell-dict-fr-fr/cspell-ext.json"
+  ],
+  "ignorePaths": [
+    "src/db/seeds/**",
+    "config/**",
+    "assets/**",
+    "**/*.html",
+    "package.json",
+    "package-lock.json",
+    "Dockerfile",
+    "docker-compose.yml",
+    "docker-compose.test.yml",
+    "docker-compose.prod.yml",
+    "cspell.json",
+    "README.md",
+    ".eslintrc",
+    ".gitignore",
+    "src/external-services/hubspot/**",
+    "src/external-services/mail-gun/transactionalEmails/**"
+  ],
+  "ignoreRegExpList": [
+    "HexDigits",
+    "HexValues",
+    "Urls"
+  ],
+  "words": []
+}

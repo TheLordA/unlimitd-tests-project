@@ -1,0 +1,18 @@
+{
+  "db": {
+    "client": "pg",
+    "connection": {
+      "host": "localhost",
+      "port": 5432,
+      "user": "postgres",
+      "password": "",
+      "database": "unlimitd"
+    }
+  },
+  "security": {
+    "jwt": {
+      "expiresIn": "30d",
+      "secret": "Th1sS33msL1k3AS3Cr3T"
+    }
+  }
+}
