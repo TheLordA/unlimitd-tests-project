@@ -14,8 +14,8 @@ const Main = styled('main')({
 const ConnectedUserLayout = () => {
   const { logout, user } = useAuth();
 
-  // TODO: Remove when authentication is implemented
-  if (!user) return 'No user connected.';
+  // // TODO: Remove when authentication is implemented
+  // if (!user) return 'No user connected.';
 
   return (
     <Main>

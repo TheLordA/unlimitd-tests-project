@@ -1,4 +1,5 @@
 const PATHS = {
+  '*': '*',
   admin: '/admin',
   login: '/login',
   root: '/',
